@@ -1,0 +1,20 @@
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.vscode/
+outputs/
+pretrained/
+# Ignore all data by default
+data/*
+# Allow fgvc directory traversal
+!data/fgvc/
+# Ignore everything inside fgvc first
+data/fgvc/**
+# Re-allow directories so Git can reach whitelisted files
+!data/fgvc/**/
+# Only keep split metadata files
+!data/fgvc/**/train.json
+!data/fgvc/**/val.json
+!data/fgvc/**/test.json
+!data/fgvc/**/train_test_split.txt
+upload2modelscope.py

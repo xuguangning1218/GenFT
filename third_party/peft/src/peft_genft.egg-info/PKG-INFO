@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: peft-genft
+Version: 0.15.2.dev0
+Summary: A lightweight PEFT fork with GenFT support.
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: accelerate
+Requires-Dist: huggingface-hub
+Requires-Dist: numpy
+Requires-Dist: packaging
+Requires-Dist: psutil
+Requires-Dist: pyyaml
+Requires-Dist: safetensors
+Requires-Dist: torch
+Requires-Dist: tqdm
+Requires-Dist: transformers
+Dynamic: license-file

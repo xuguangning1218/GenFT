@@ -1,0 +1,10 @@
+accelerate
+huggingface-hub
+numpy
+packaging
+psutil
+pyyaml
+safetensors
+torch
+tqdm
+transformers
